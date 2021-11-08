@@ -7,7 +7,7 @@ import java.util.Random;
 
 /**
  *  Establishes server and creates a new thread for each of the clients which connect to the server
- * 	Basis for QuoteServer from - https://youtu.be/s_YsS3jhgWc
+ * 
  */
 public class QuoteServer extends Thread {
 	private final static int port = 5000;
@@ -67,7 +67,7 @@ public class QuoteServer extends Thread {
 		Socket clientConnection;
 		
 		/**
-		 * ClientServerThreadHandler COonstructor
+		 * ClientServerThreadHandler Constructor passes through the client connection
 		 * 
 		 * @param clientConnection
 		 * 		- client socket connection
